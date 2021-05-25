@@ -4,6 +4,15 @@
 
 This project is a wedding gift for Jeroen and Sarah, who said "Yes" to eachother on 28 May 2021. The gift consists of a Duvel-shaped and "Callboys"-themed kitchen timer which also reminds them of the amount of days they have been married.
 
+## A picture or a 1000 words
+
+![Front of the timer](img/front.png)
+
+![Back of the timer](img/front.png)
+
+![Back of the timer](img/front.png)
+
+
 ## Components used
 
 - [Wemos D1 ESP8266 board with 4Mb of flas](https://shop.mchobby.be/en/wemos-lolin-esp/1221-wemos-d1-mini-esp-8266ex-4mb-flash-3232100012219.html)
