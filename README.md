@@ -19,7 +19,11 @@ This project is a wedding gift for Jeroen and Sarah, who said "Yes" to eachother
 - [16x2 character LCD](https://www.adafruit.com/product/181)
 - [MAX 98357A I2S Amplifier](https://www.adafruit.com/product/3006)
 
-# Libraries used
+## Wiring
+
+![Fritzing wiring diagram](img/wiring.png)
+
+## Libraries used
 
 - LiquidCrystal to drive the characters LCD
 - [NTPClient](https://github.com/arduino-libraries/NTPClient) to fetch the time in order to calculate the days they have been married
