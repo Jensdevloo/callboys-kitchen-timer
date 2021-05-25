@@ -8,9 +8,9 @@ This project is a wedding gift for Jeroen and Sarah, who said "Yes" to eachother
 
 ![Front of the timer](img/front.png)
 
-![Back of the timer](img/front.png)
+![Back of the timer](img/back.png)
 
-![Back of the timer](img/front.png)
+![Back of the timer](img/back2.png)
 
 
 ## Components used
