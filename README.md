@@ -12,7 +12,6 @@ This project is a wedding gift for Jeroen and Sarah, who said "Yes" to eachother
 
 ![Back of the timer](img/back2.png)
 
-
 ## Components used
 
 - [Wemos D1 ESP8266 board with 4Mb of flas](https://shop.mchobby.be/en/wemos-lolin-esp/1221-wemos-d1-mini-esp-8266ex-4mb-flash-3232100012219.html)
