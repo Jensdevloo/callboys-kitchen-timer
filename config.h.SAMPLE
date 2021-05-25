@@ -1,0 +1,55 @@
+#ifndef CALLBOYSTIMER_CONFIG_H
+#define CALLBOYSTIMER_CONFIG_H
+
+// ESP8266 host name
+#define ESP_NAME "CallboysTimer"
+
+// WIFI
+const char* ssid       = "<your wifi ssid>";
+const char* password   = "<your wifi password>";
+
+// LCD
+const int rs = D7, en = D6, d4 = D0, d5 = D5, d6 = D2, d7 = D3;
+
+// AUDIO
+float defaultGain = .3;
+
+// NTP
+const long utcOffsetInSeconds = 3600;
+
+//TIMEKEEPING
+int minuteMillis = 1000*60;
+const unsigned long interval = 60UL*60UL*1000UL; //1hour
+int timerStartInterval = 5000; //delay before start of timer
+int maxtimer = 30; //max amount of minutes
+
+//BUTTON 
+const int buttonPin = D1;
+int buttonState = 0; 
+
+//############################################################################
+// PINS
+//############################################################################
+
+/* --------+--------------+--------------------------------
+ *  D1 pin   ESP-8266 pin   Function
+ * --------+--------------+--------------------------------
+ *  TX       TXD            TXD
+ *  RX       RXD            RXD, I2S DATA
+ *  A0       A0             Analog input, max 3.3V input
+ *  D0       GPIO16         IO
+ *  D1       GPIO5          IO, SCL
+ *  D2       GPIO4          IO, SDA
+ *  D3       GPIO0          IO, 10k Pull-up
+ *  D4       GPIO2          IO, I2S LRCK, 10k Pull-up
+ *  D5       GPIO14         IO, SCK
+ *  D6       GPIO12         IO, MISO
+ *  D7       GPIO13         IO, MOSI
+ *  D8       GPIO15         IO, I2S BCLK, 10k Pull-down, SS
+ *  G      GND            Ground
+ *  5V       -              5V
+ *  3V3      3.3V           3.3V
+ *  RST      RST            Reset
+ */
+
+#endif //CALLBOYSTIMER_CONFIG_H
